@@ -1,6 +1,7 @@
-var test = require('tape');
+var test = require('tape'),
+    who = require('./../');
 
 test('pointless test', function(t) {
-  t.fail('waaaah');
+  t.equals('you', who.ateAllThePies(), 'you ate all the pies')
   t.end();
 });

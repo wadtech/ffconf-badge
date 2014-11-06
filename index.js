@@ -1,5 +1,5 @@
 module.exports = {
-  whoAteAllThePies : function() {
-    return 'you.';
+  ateAllThePies : function() {
+    return 'you';
   }
 }
